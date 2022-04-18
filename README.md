@@ -25,6 +25,7 @@ python
 # Developed By:Harish Kumar
 # Register Number:212221230104
 # i) Convert BGR and RGB to HSV and GRAY
+```
 import cv2
 houseImage = cv2.imread('house.jpg')
 cv2.imshow('Original Image',houseImage)
@@ -99,7 +100,7 @@ cv2.imshow('Merged HSV Image',mergedHSV)
 cv2.waitKey(0)
 cv2.destroyAllWindow
 
-
+```
 
 ## Output:
 ### i) BGR and RGB to HSV and GRAY
